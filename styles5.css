@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#studentSubmissions {
+    margin-bottom: 30px;
+}
+
+#submissionList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#submissionList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gradingSection {
+    margin-top: 20px;
+}
+
+#gradingSection h2 {
+    margin-bottom: 20px;
+}
+
+#questionGrading {
+    margin-bottom: 20px;
+}
+
+#feedbackInput {
+    margin-bottom: 20px;
+}
+
+#feedbackText {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#gradingControls {
+    text-align: center;
+}
+
+#gradingControls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitGrades {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#submitGrades:hover {
+    background-color: #218838;
+}
+
+#bulkGrade {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+#bulkGrade:hover {
+    background-color: #e0a800;
+}
+
+#regrade {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#regrade:hover {
+    background-color: #0056b3;
+}
+
+#returnToStudent {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#returnToStudent:hover {
+    background-color: #c82333;
+}

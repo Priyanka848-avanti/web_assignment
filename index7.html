@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment Settings</title>
+    <link rel="stylesheet" href="styles7.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Assessment Settings</h1>
+
+        <div id="visibilitySettings">
+            <h2>Assessment Visibility</h2>
+            <select id="visibility">
+                <option value="public">Visible to All Students</option>
+                <option value="groups">Visible to Specific Groups</option>
+                <option value="private">Private (Teacher-Only)</option>
+            </select>
+        </div>
+
+        <div id="accessPermissions">
+            <h2>Access Permissions</h2>
+            <input type="text" id="accessList" placeholder="Enter student IDs or class names">
+        </div>
+
+        <div id="timeAndDateSettings">
+            <h2>Time and Date Settings</h2>
+            <label for="startDate">Start Date:</label>
+            <input type="datetime-local" id="startDate">
+            <label for="endDate">End Date:</label>
+            <input type="datetime-local" id="endDate">
+        </div>
+
+        <div id="attemptLimits">
+            <h2>Attempt Limits</h2>
+            <input type="number" id="attempts" min="1" placeholder="Enter number of attempts">
+        </div>
+
+        <div id="feedbackTiming">
+            <h2>Feedback Timing</h2>
+            <select id="feedbackTimingSelect">
+                <option value="immediate">Immediately After Submission</option>
+                <option value="postAssessment">After Assessment Closes</option>
+            </select>
+        </div>
+
+        <div id="gradeDisplay">
+            <h2>Grade Display Options</h2>
+            <select id="gradeDisplaySelect">
+                <option value="immediate">Show Grades Immediately</option>
+                <option value="postGrading">After All Submissions Are Graded</option>
+            </select>
+        </div>
+
+        <div id="notificationSettings">
+            <h2>Notification Settings</h2>
+            <label><input type="checkbox" id="notifyStart"> Notify When Students Start the Assessment</label>
+            <label><input type="checkbox" id="notifyCompletion"> Notify When Students Complete the Assessment</label>
+            <label><input type="checkbox" id="notifyGrading"> Notify When Grading is Complete</label>
+        </div>
+
+        <div id="settingsControls">
+            <button id="saveSettings">Save Settings</button>
+        </div>
+    </div>
+
+    <script src="script7.js"></script>
+</body>
+</html>

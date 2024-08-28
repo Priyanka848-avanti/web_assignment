@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment Taking Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="assessmentHeader">
+            <h1 id="assessmentTitle">Assessment Title</h1>
+            <p id="assessmentInstructions">These are the instructions for the assessment. Please read carefully before beginning.</p>
+        </div>
+
+        <div id="timerContainer">
+            <span id="timer">Time Remaining: 00:00:00</span>
+        </div>
+
+        <div id="questionNavigation">
+            <button class="navButton" data-question="1">1</button>
+            <button class="navButton" data-question="2">2</button>
+            <button class="navButton" data-question="3">3</button>
+            <!-- Add more buttons as needed -->
+        </div>
+
+        <div id="questionDisplay">
+            <!-- Question content will be injected here -->
+        </div>
+
+        <div id="answerInput">
+            <!-- Answer input fields will be injected here -->
+        </div>
+
+        <div id="assessmentControls">
+            <button id="saveProgress">Save Progress</button>
+            <button id="submitAssessment">Submit Assessment</button>
+        </div>
+
+        <div id="feedbackDisplay">
+            <!-- Feedback will be displayed here if immediate feedback is enabled -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

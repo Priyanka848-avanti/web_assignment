@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#assessmentHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#timerContainer {
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ff4d4d;
+}
+
+#questionNavigation {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navButton {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navButton.active {
+    background-color: #0056b3;
+}
+
+#questionDisplay {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#answerInput {
+    margin-bottom: 20px;
+}
+
+#assessmentControls {
+    text-align: center;
+}
+
+#assessmentControls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#saveProgress {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+#saveProgress:hover {
+    background-color: #e0a800;
+}
+
+#submitAssessment {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#submitAssessment:hover {
+    background-color: #218838;
+}
+
+#feedbackDisplay {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+    background-color: #d4edda;
+    color: #155724;
+}

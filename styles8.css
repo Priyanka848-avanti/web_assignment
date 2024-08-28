@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#archiveAssessment {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#archiveAssessment:hover {
+    background-color: #0056b3;
+}
+
+#confirmDeletion {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#confirmDeletion:hover {
+    background-color: #c82333;
+}
+
+#restoreAssessment {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#restoreAssessment:hover {
+    background-color: #218838;
+}
+
+#exportData {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+#exportData:hover {
+    background-color: #e0a800;
+}
